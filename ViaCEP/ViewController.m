@@ -21,12 +21,10 @@
     [super viewDidLoad];
     
     [_actvity setHidden:true];
-    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 -(bool)returnInternetConectionStatus {

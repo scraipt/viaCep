@@ -89,8 +89,8 @@
 		C7FC79651CC6A5510020A858 /* framework */ = {
 			isa = PBXGroup;
 			children = (
-				C7FC79621CC6955D0020A858 /* Reachability.m */,
 				C7FC79611CC6955D0020A858 /* Reachability.h */,
+				C7FC79621CC6955D0020A858 /* Reachability.m */,
 			);
 			name = framework;
 			sourceTree = "<group>";

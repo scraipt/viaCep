@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C73BAD851CC5649E0030AB5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C73BAD841CC5649E0030AB5C /* main.m */; };
+		C73BAD881CC5649E0030AB5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C73BAD871CC5649E0030AB5C /* AppDelegate.m */; };
+		C73BAD8B1CC5649E0030AB5C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C73BAD8A1CC5649E0030AB5C /* ViewController.m */; };
+		C73BAD8E1CC5649E0030AB5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C73BAD8C1CC5649E0030AB5C /* Main.storyboard */; };
+		C73BAD911CC5649E0030AB5C /* ViaCEP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C73BAD8F1CC5649E0030AB5C /* ViaCEP.xcdatamodeld */; };
+		C73BAD931CC5649E0030AB5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C73BAD921CC5649E0030AB5C /* Assets.xcassets */; };
+		C73BAD961CC5649E0030AB5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C73BAD941CC5649E0030AB5C /* LaunchScreen.storyboard */; };
+		C7FC79631CC6955D0020A858 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FC79621CC6955D0020A858 /* Reachability.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C73BAD801CC5649E0030AB5C /* ViaCEP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViaCEP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73BAD841CC5649E0030AB5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C73BAD861CC5649E0030AB5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C73BAD871CC5649E0030AB5C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C73BAD891CC5649E0030AB5C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C73BAD8A1CC5649E0030AB5C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C73BAD8D1CC5649E0030AB5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C73BAD901CC5649E0030AB5C /* ViaCEP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ViaCEP.xcdatamodel; sourceTree = "<group>"; };
+		C73BAD921CC5649E0030AB5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C73BAD951CC5649E0030AB5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C73BAD971CC5649E0030AB5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7FC79611CC6955D0020A858 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		C7FC79621CC6955D0020A858 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C73BAD7D1CC5649E0030AB5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C73BAD771CC5649E0030AB5C = {
+			isa = PBXGroup;
+			children = (
+				C73BAD821CC5649E0030AB5C /* ViaCEP */,
+				C73BAD811CC5649E0030AB5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C73BAD811CC5649E0030AB5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C73BAD801CC5649E0030AB5C /* ViaCEP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C73BAD821CC5649E0030AB5C /* ViaCEP */ = {
+			isa = PBXGroup;
+			children = (
+				C7FC79651CC6A5510020A858 /* framework */,
+				C73BAD861CC5649E0030AB5C /* AppDelegate.h */,
+				C73BAD871CC5649E0030AB5C /* AppDelegate.m */,
+				C73BAD891CC5649E0030AB5C /* ViewController.h */,
+				C73BAD8A1CC5649E0030AB5C /* ViewController.m */,
+				C73BAD8C1CC5649E0030AB5C /* Main.storyboard */,
+				C73BAD921CC5649E0030AB5C /* Assets.xcassets */,
+				C73BAD941CC5649E0030AB5C /* LaunchScreen.storyboard */,
+				C73BAD971CC5649E0030AB5C /* Info.plist */,
+				C73BAD8F1CC5649E0030AB5C /* ViaCEP.xcdatamodeld */,
+				C73BAD831CC5649E0030AB5C /* Supporting Files */,
+			);
+			path = ViaCEP;
+			sourceTree = "<group>";
+		};
+		C73BAD831CC5649E0030AB5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C73BAD841CC5649E0030AB5C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7FC79651CC6A5510020A858 /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				C7FC79621CC6955D0020A858 /* Reachability.m */,
+				C7FC79611CC6955D0020A858 /* Reachability.h */,
+			);
+			name = framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C73BAD7F1CC5649E0030AB5C /* ViaCEP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C73BAD9A1CC5649E0030AB5C /* Build configuration list for PBXNativeTarget "ViaCEP" */;
+			buildPhases = (
+				C73BAD7C1CC5649E0030AB5C /* Sources */,
+				C73BAD7D1CC5649E0030AB5C /* Frameworks */,
+				C73BAD7E1CC5649E0030AB5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViaCEP;
+			productName = ViaCEP;
+			productReference = C73BAD801CC5649E0030AB5C /* ViaCEP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C73BAD781CC5649E0030AB5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mario Santana";
+				TargetAttributes = {
+					C73BAD7F1CC5649E0030AB5C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = C73BAD7B1CC5649E0030AB5C /* Build configuration list for PBXProject "ViaCEP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C73BAD771CC5649E0030AB5C;
+			productRefGroup = C73BAD811CC5649E0030AB5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C73BAD7F1CC5649E0030AB5C /* ViaCEP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C73BAD7E1CC5649E0030AB5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73BAD961CC5649E0030AB5C /* LaunchScreen.storyboard in Resources */,
+				C73BAD931CC5649E0030AB5C /* Assets.xcassets in Resources */,
+				C73BAD8E1CC5649E0030AB5C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C73BAD7C1CC5649E0030AB5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73BAD8B1CC5649E0030AB5C /* ViewController.m in Sources */,
+				C73BAD881CC5649E0030AB5C /* AppDelegate.m in Sources */,
+				C73BAD851CC5649E0030AB5C /* main.m in Sources */,
+				C73BAD911CC5649E0030AB5C /* ViaCEP.xcdatamodeld in Sources */,
+				C7FC79631CC6955D0020A858 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C73BAD8C1CC5649E0030AB5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C73BAD8D1CC5649E0030AB5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C73BAD941CC5649E0030AB5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C73BAD951CC5649E0030AB5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C73BAD981CC5649E0030AB5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C73BAD991CC5649E0030AB5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C73BAD9B1CC5649E0030AB5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ViaCEP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ms.ViaCEP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C73BAD9C1CC5649E0030AB5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ViaCEP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ms.ViaCEP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C73BAD7B1CC5649E0030AB5C /* Build configuration list for PBXProject "ViaCEP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C73BAD981CC5649E0030AB5C /* Debug */,
+				C73BAD991CC5649E0030AB5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C73BAD9A1CC5649E0030AB5C /* Build configuration list for PBXNativeTarget "ViaCEP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C73BAD9B1CC5649E0030AB5C /* Debug */,
+				C73BAD9C1CC5649E0030AB5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C73BAD8F1CC5649E0030AB5C /* ViaCEP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C73BAD901CC5649E0030AB5C /* ViaCEP.xcdatamodel */,
+			);
+			currentVersion = C73BAD901CC5649E0030AB5C /* ViaCEP.xcdatamodel */;
+			path = ViaCEP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C73BAD781CC5649E0030AB5C /* Project object */;
+}
